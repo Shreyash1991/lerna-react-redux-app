@@ -10,8 +10,8 @@ const  introReducer = (state={},action) =>{
     switch (action.type){
         case INTRO_INIT: 
             const title = 'Welcome to React';
-
-            return { ...state, title }
+            const welcomeMessage = 'Welcome From Redux';
+            return { ...state, title,welcomeMessage }
             break;
         default:
             return { ...state};

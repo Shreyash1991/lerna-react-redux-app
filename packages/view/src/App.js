@@ -20,7 +20,7 @@ class App extends Component {
           <h1 className="App-title">{introductions.title}</h1>
         </header>
         <p className="App-intro">
-          I am welcome message
+       {introductions.welcomeMessage}
         </p>
       </div>
     );
