@@ -1,0 +1,8 @@
+{
+	"devDependencies": {
+		"lerna": "^2.11.0"
+	},
+	"scripts": {
+		"start":"cd packages/view && npm start"
+	}
+}

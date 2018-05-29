@@ -1,0 +1,25 @@
+0 silly input [ 'data-layer' ]
+1 silly flags { _: [ 'add' ],
+1 silly flags   'reject-cycles': false,
+1 silly flags   rejectCycles: false,
+1 silly flags   dev: false,
+1 silly flags   D: false,
+1 silly flags   scope: 'view',
+1 silly flags   args: [ 'data-layer' ] }
+2 verbose rootPath C:\Users\Developer\EOG-Repo
+3 info version 2.11.0
+4 silly isInitialized
+5 silly isInitialized true
+6 silly existsSync C:\Users\Developer\EOG-Repo\VERSION
+7 info scope view
+8 error EPACKAGES Errored while collecting packages and package graph
+9 error Error: No packages found that match scope 'view'
+9 error     at Function.filterPackages (C:\Users\Developer\AppData\Roaming\npm\node_modules\lerna\lib\PackageUtilities.js:252:17)
+9 error     at AddCommand.runPreparations (C:\Users\Developer\AppData\Roaming\npm\node_modules\lerna\lib\Command.js:333:60)
+9 error     at C:\Users\Developer\AppData\Roaming\npm\node_modules\lerna\lib\Command.js:209:18
+9 error     at new Promise (<anonymous>)
+9 error     at AddCommand.run (C:\Users\Developer\AppData\Roaming\npm\node_modules\lerna\lib\Command.js:193:14)
+9 error     at Object.handler (C:\Users\Developer\AppData\Roaming\npm\node_modules\lerna\lib\commands\AddCommand.js:79:14)
+9 error     at Object.self.runCommand (C:\Users\Developer\AppData\Roaming\npm\node_modules\lerna\node_modules\yargs\lib\command.js:233:22)
+9 error     at Object.Yargs.self._parseArgs (C:\Users\Developer\AppData\Roaming\npm\node_modules\lerna\node_modules\yargs\yargs.js:990:30)
+9 error     at Object.Yargs.self.parse (C:\Users\Developer\AppData\Roaming\npm\node_modules\lerna\node_modules\yargs\yargs.js:532:23)
