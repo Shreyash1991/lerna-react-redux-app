@@ -1,8 +1,25 @@
 {
-	"devDependencies": {
-		"lerna": "^2.11.0"
-	},
-	"scripts": {
-		"start":"cd packages/view && npm start"
-	}
+  "devDependencies": {
+    "lerna": "^2.11.0"
+  },
+  "scripts": {
+    "start": "cd packages/view && npm start",
+    "start2": "cd packages/custom-view && npm start"
+  },
+  "name": "lerna-react-redux-app",
+  "description": "First demo react redux app using lerna project manager",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgangwani/lerna-react-redux-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pgangwani/lerna-react-redux-app/issues"
+  },
+  "homepage": "https://github.com/pgangwani/lerna-react-redux-app#readme"
 }
