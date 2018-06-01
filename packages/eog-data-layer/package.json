@@ -1,5 +1,5 @@
 {
-  "name": "data-layer",
+  "name": "eog-data-layer",
   "version": "1.0.0",
   "description": "common redux package",
   "main": "src/index.js",
