@@ -4,7 +4,7 @@ import './index.css';
 import AppConnect from './AppConnect';
 import registerServiceWorker from './registerServiceWorker';
 import { Provider } from "react-redux";
-import store from "data-layer/src/store";
+import store from "eog-data-layer/src/store";
 
 console.log('store',store);
 
